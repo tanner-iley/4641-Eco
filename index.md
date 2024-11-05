@@ -62,31 +62,31 @@ For our project, we must select one metric suitable for Clustering and two metri
 
 ## Visualization and Quantitative Scoring Metrics
 
-The first model we chose to implement was the linear regression model. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) and the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years' worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line shows a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a weak negative correlation.
+The first model we chose to implement was the linear regression model. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
 
-### Interpretation
+## Interpretation
 
-- **Correlation**: A correlation coefficient of -0.18 suggests a weak negative relationship between the two variables, time and power load. This means that there is no strong evidence to imply that, over time, there was a significant decrease in power load over the 14 years.
+**Correlation**: -0.18 as the correlation coefficient suggests a weak negative relationship between the two variables, time and power load. This means that there is no strong evidence to imply that over time there was a slight decrease in power load in the duration of the 14 years. 
 
-- **Regression Line**: Looking at the scatterplot as a whole, there is a high level of variance among the points over the 14-year period. Because of this high level of variance, the slight decrease from the relationship of these two variables might not be a strong indicator of the true change over time.
+**Regression Line**: Looking at the scatterplot as a whole, there is a high level of variance amongst the points over the 14 year period. Because of this high level of variance, the slight decrease from the relationship of these two variables might not be a strong indicator of the true change over time. 
 
-### Model Performance
+## Model Performance
 
-Our linear regression model did not give us a strong indicator of the relationship between time and power load. Due to a relatively small correlation coefficient value and an almost flat trend line, we could not observe significant patterns, likely due to some of the potential factors listed below.
+Our linear regression model did not give us a strong indicator of the relationship between time and power load. Due to a relatively small correlation coefficient value and almost flat trend line, we could not observe significant patterns to identify due to some of the potential factors listed below.
 
-- **One Feature**: As we were not able to conclude a significant trend, it is clear that time alone is insufficient as a predictor. As suggested in our proposal, we need to look at other variables, such as weather conditions, day of the week, and geographical location. These other potential features might have a stronger correlation with power load.
+- **One Feature**: As we were not able to conclude a significant trend, it is clear that time alone is insufficient as a predictor. As suggested in our proposal, we need to look at other variables, such as weather conditions, day of the week, and geographical location. These other potential features might have a stronger correlation to power load.
 
 - **High Variability**: The scatterplot describes a high variability in power load throughout the years. We would need to try incorporating other features, which could indicate why there is such a high level of variability and what features could reduce this.
 
-- **Seasonal Patterns**: A linear regression model may not be able to effectively capture cyclical patterns, which may be occurring with the power load trends on an annual basis. Exploring other modeling options, such as a time-series model with seasonal decomposition, could perform better.
+- **Seasonal Patterns**: A linear regression model may not be able to effectively capture cyclical patterns, which may be what is happening with the power load trends on an annual basis. Exploring other modeling options, such as a time-series model with seasonal decomposition could perform better.
 
-### Next Steps
+## Next Steps
 
-For future iterations of our project, we identified a list of potential improvements we can make to our models and factors to consider for other models we will work on for this project. Based on our analysis of the linear regression model, we came up with these next steps:
+For future iterations of our project, we came up with a list of potential improvements we can make to our models and factors to consider for other models we will work on for this project. Based on our analysis of the linear regression model, we came up with these next steps:
 
 - **Additional Features**: Incorporate other features such as temperature, day of the week, and geographical location to capture more complex relationships.
 
-- **Explore Alternatives**: Explore other ML models that may more effectively interpret the data we want to learn about. Some suggestions include Random Forests, which can capture non-linear relationships, or time-series models that can account for seasonal patterns.
+- **Explore Alternatives**: Explore other ML models that may more effectively interpret the data we want to learn about. Some models we were looking at include: Random Forests, which can capture non-linear relationships, or time-series models that can account for seasons.
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
 
