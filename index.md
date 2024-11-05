@@ -90,6 +90,8 @@ For future iterations of our project, we came up with a list of potential improv
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
 
+Below is a link to our Midterm Report:
+[Link to another page](another-page.md)
 
 ## References
 
