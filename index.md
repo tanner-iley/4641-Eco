@@ -63,6 +63,10 @@ For our project, we must select one metric suitable for Clustering and two metri
 ## Visualization and Quantitative Metrics
 
 The first model we chose to implement was the linear regression model. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
+
+
+
+
 <img width="638" alt="Screenshot 2024-11-07 at 8 24 13 AM" src="https://github.com/user-attachments/assets/bb76a890-403d-4993-a9dd-b2bed5792222">
 
 ## Analysis
