@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# This function will plot all of our data
 def plotModel(x, y, b, m, title, correlation):
     plt.scatter(x, y, color="m", marker="o", s=30)
     y1 = m*x + b
@@ -14,7 +13,6 @@ def plotModel(x, y, b, m, title, correlation):
     plt.text(0.95, 0.9, f'Correlation: {correlation:.2f}', fontsize=12, color='blue', ha='right', transform=plt.gca().transAxes)
     plt.show()
 
-#This function reads the data from the CSV file (can alter based on how data preprocessing works)
 def regression(csv, dependent):
     data = pd.read_csv(csv)
     data['Datetime'] = pd.to_datetime(data['Datetime'])
