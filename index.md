@@ -96,6 +96,15 @@ For future iterations of our project, we came up with a list of potential improv
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
 
+## Contribution Table
+
+| Team Member     | Contribution Description                                |
+|-----------------|---------------------------------------------------------|
+| Graham Hill     | Data Pre-Processing               |
+| Tanner Iley     | Data Sourcing and Pre-Processing              |
+| Rhea Jaxon      | Results Evaluation and Analysis                |
+| Pranav Jothi    | Model Selection and Linear Regression Coding                |
+| Justin Kamina   | Model Selection and Random Forest Coding                  |
 
 ## References
 
