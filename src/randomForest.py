@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
-data = pd.read_csv(r'C:\Users\Moosh\Downloads\RandomForest\AEP_hourly.csv\AEP_hourly.csv') 
+data = pd.read_csv("C:/Users/hillg/OneDrive/GATech/5th Year/Fall 2024/CS 4641/Project/4641-Eco/src/data/normalized_AEP_hourly.csv") 
 
 def random_forest_classification(df):
     df['Datetime'] = pd.to_datetime(df['Datetime'])
