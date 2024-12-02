@@ -68,7 +68,7 @@ For pre-processing, we chose to clean and normalize the data. Cleaning helps rem
 
 The first model we chose to implement was the linear regression model. We decided to implement this model as it would give us better understanding of how different factors could connect to energy use. Linear Regression gives a better idea on what trends occur in our data. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
 
-![RegressionImage](./RegressionImage.jpg)
+![RegressionImage](./graphs/RegressionImage.jpg)
 
 
 
