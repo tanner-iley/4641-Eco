@@ -1,4 +1,4 @@
-# Knn Images
+# KNN Images
 
 ![knn_confusion_matrix_Delaware.png](/knn/knn_confusion_matrix_Delaware.png)
 
