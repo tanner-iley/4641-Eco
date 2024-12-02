@@ -110,6 +110,8 @@ For future iterations of our project, we came up with a list of potential improv
 | Pranav Jothi    | Model Selection and Linear Regression Coding                |
 | Justin Kamina   | Model Selection and Random Forest Coding                  |
 
+### Final Report
+
 ## References
 
 1. A. Bashir, et al., "Predicting Energy Consumption in Smart Buildings: A Machine Learning Approach," Energy Reports, vol. 7, pp. 282-293, 2021.
