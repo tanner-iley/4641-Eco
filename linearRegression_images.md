@@ -1,4 +1,4 @@
-# Linearregression Images
+# Linear Regression Images
 
 ![linearRegression_Delaware.png](/linearRegression/linearRegression_Delaware.png)
 
