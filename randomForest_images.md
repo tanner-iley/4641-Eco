@@ -1,4 +1,4 @@
-# Randomforest Images
+# Random Forest Images
 
 ![randomForest_confusion_matrix_Delaware.png](/randomForest/randomForest_confusion_matrix_Delaware.png)
 
