@@ -111,8 +111,9 @@ Between the midterm checkpoint and final report, we changed the structure of the
 
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
+## Random Forest
 
-# Visualization and Quantitative Metrics for Random Forest
+# Visualization and Quantitative Metrics
 
 The second model was the Random Forest model.
 
@@ -122,7 +123,9 @@ The second model was the Random Forest model.
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
-# Visualization and Quantitative Metrics for K-nearest Neighbors
+## K-nearest Neighbors
+
+# Visualization and Quantitative Metrics 
 
 The third model was the K-nearest neighbors model. For our analysis, Pennsylvania’s power loads were utilized as that was the model of highest accuracy of 90.9%. There are three distinguishable classes. Class 0 has 1 correctly classified instance. However, there were as many as 214 misclassifications for Class 0, which could suggest a weak representation of the class. Class 1 had 83 misclassifications as Class 2 and 5 misclassifications as Class 0. In comparison to Class 0, Class 1 seems to have more distinguishable class features. Finally, when analyzing Class 2 from the graph, there are 503 instances that seem to have been misclassified as Class 1.
 
@@ -131,7 +134,7 @@ The third model was the K-nearest neighbors model. For our analysis, Pennsylvani
 
 [Link to All KNN Visualizations](./knn_images.md)
 
-## Analysis
+# Analysis
 
 When just looking at the model visually, there is room for concern in the accuracy of our model. How KNN works is that the machine learning model finds the nearest neighbors of a certain point, and then utilizes classification techniques in order to predict which class the point may belong to. As this classification portion is a big part of the model’s success, it is quintessential to have distinguishable classes to ensure an accurate understanding and predictor of the power consumption model. 
 
@@ -142,16 +145,14 @@ When just looking at the model visually, there is room for concern in the accura
 
 - **Class Imbalance**: One final aspect to consider would be the stark comparisons of correct classifications for Class 1. Class 1 had 7786 correct classifications. This could mean there is a generalization and a high lean towards the model’s learning process towards the majority class.
 
----
-
-## Next Steps
+# Next Steps
 
 For future iterations of our project, we came up with a list of potential improvements we can make to our models and factors to consider for other models we will work on for this project. Based on our analysis of the K-nearest neighbors model, we came up with these next steps:
 
 - **Additional Features**: Incorporate other features such as temperature, day of the week, and geographical location to capture more complex relationships.
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
 
-## Updates for KNN
+# Updates
 
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
