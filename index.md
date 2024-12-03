@@ -180,6 +180,9 @@ For future iterations of our project, we came up with a list of potential improv
 
 
 ## Model Comparisons
+Regarding implementation, each model plotted the same preprocessed and normalized data. Furthermore, each model used the features of time and climate to test against values of energy consumption. There were some differences as linear regression outputted a graph while KNN and Random Forest both outputted a confusion matrix.
+
+Moreover, each model has its pros and cons. 
 
 ## Conclusion
 
