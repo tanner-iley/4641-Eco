@@ -120,7 +120,11 @@ The preprocessing methods remained the same for the other models we implemented.
 
 In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state.
 
-[Link to Linear Regression Visualizations](./linearRegression_images.md).
+[Link to Linear Regression Visualizations](./linearRegression_images.md)
+
+[Link to KNN Visualizations](./knn_images.md)
+
+[Link to Random Forest Visualizations](./randomForest_images.md)
 
 ## References
 
