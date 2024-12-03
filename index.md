@@ -181,6 +181,8 @@ For future iterations of our project, we came up with a list of potential improv
 
 ## Conclusion
 
+Our Linear Regression, Random Forest, and K-Nearest Neighbors models revealed significant challenges in predicting energy consumption accurately due to the complexity of the data and the interplay of numerous variables. The linear model demonstrated limited capability due to the weak correlations and high variability, suggesting that simplistic models may not suffice for the intricate patterns of energy usage. Similarly, the Random Forest and KNN models, despite being more adept at handling non-linear data, suffered from notable misclassification errors and feature overlap, indicating the need for enhanced feature engineering and possibly more sophisticated modeling techniques. These findings highlight the necessity for employing advanced machine learning strategies, such as ensemble methods or deep learning, that can better capture the cyclical and seasonal fluctuations in energy consumption. Furthermore, our study underscores the importance of expanding the scope of feature selection to include more diverse variables, potentially improving the predictive accuracy.
+
 ## Gantt Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
