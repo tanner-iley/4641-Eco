@@ -153,12 +153,6 @@ For future iterations of our project, we came up with a list of potential improv
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
 
 
-## Overall Analysis
-
-
-
-
-
 ## Model Comparisons
 
 ## Conclusion
