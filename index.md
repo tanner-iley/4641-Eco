@@ -111,11 +111,13 @@ Between the midterm checkpoint and final report, we changed the structure of the
 
 ### Final Analysis
 
-Despite our changes to the model, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
+Despite our changes to the model, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). 
 
 - **Additional Features**: Even though we incorporated temperature by location, there was no significant correlation.
 
 - **Seasonal Patterns**: Since this is a cyclical pattern, it is not easily captured by the linear regression model.
+
+- **Time**: There were gaps in time data, as well as only a 14 year time span.
 
 ## Random Forest
 
