@@ -152,9 +152,6 @@ For future iterations of our project, we came up with a list of potential improv
 - **Additional Features**: Incorporate other features such as temperature, day of the week, and geographical location to capture more complex relationships.
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
 
-### Updates
-
-For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
 ## Overall Analysis
 
