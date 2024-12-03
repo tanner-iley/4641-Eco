@@ -175,7 +175,7 @@ The next feature to be implemented in this model would be predicting energy pric
 | Graham Hill     | KNN implementation            |
 | Tanner Iley     | Preprocessing and Linear Regression changes            |
 | Rhea Jaxon      | Results Evaluation and Analysis                |
-| Pranav Jothi    | Linear Regression Coding and analysis               |
+| Pranav Jothi    | Linear Regression Coding and Analysis               |
 | Justin Kamina   | Random Forest Coding                  |
 
 ## References
