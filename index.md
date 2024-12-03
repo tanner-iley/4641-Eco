@@ -212,7 +212,7 @@ Our Linear Regression, Random Forest, and K-Nearest Neighbors models revealed si
 |-----------------|---------------------------------------------------------|
 | Graham Hill     | KNN implementation            |
 | Tanner Iley     | Preprocessing and Linear Regression changes            |
-| Rhea Jaxon      | Results Evaluation and Analysis                |
+| Rhea Jaxon      | Results Evaluation and Analysis, Model 3 Analysis            |
 | Pranav Jothi    | Linear Regression Coding and Analysis               |
 | Justin Kamina   | Random Forest Coding                  |
 
