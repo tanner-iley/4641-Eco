@@ -180,9 +180,12 @@ For future iterations of our project, we came up with a list of potential improv
 
 
 ## Model Comparisons
-Regarding implementation, each model plotted the same preprocessed and normalized data. Furthermore, each model used the features of time and climate to test against values of energy consumption. There were some differences as linear regression outputted a graph comparing predicted values to actual values while KNN and Random Forest both outputted a confusion matrix and numerical predictions. Finally, linear regression relies on a correlation coefficient to determine the strength of feature relationships whereas we used an accuracy in our analysis of KNN and Random Forest.
+Regarding implementation, each model plotted the same preprocessed and normalized data. Furthermore, each model used the features of time and climate to test against values of energy consumption. In the end, we were able to successfully implement all three models: Linear Regression, Random Forests, and finally K-nearest Neighbors. All the models struggled with accuracy due to specific needs of classification data that the open source material was generally lacking. Because of this, there are some shortcomings in the interpretability of the data in regards to feature handling done by the models. 
 
-Moreover, Random Forest and KNN both had issues with misclassification and feature overlap. Linear Regression had the opposite issue as we may have utilized too little features, which likely didn't capture the complexity of energy consumption data.
+Linear Regression model was probably the simplest approach and it provided us with our first relationship between time and power load. Although, it identified a rather weak negative relationship, as it did not take into account the seasonal patterns of annual cyclical patterns. Random Forest was the next step higher in complexity but like KNN, it struggled with notable misclassification errors. As seen in the confusion matrix, this can be largely due to feature overlap due to overgeneralization or improper data splits. 
+
+Pennsylvania’s data set seems to be the best suited for the way we coded our projects because amongst the three models, it has consistently done as one of the bests with a decent accuracy and correlation data. KNN struggled with overlapping feature data as well as a lot of the adjacent classes were often misclassified. Looking at all three models holistically, it is clear that no single model can adequately address all the factors that go into properly predicting energy consumption for the Eastern Interconnection. Linear Regression’s results were too simply stated and Random Forest and KNN lacked the finesse of clearly defining features to avoid overlap. In order to further improve from our project, it is quintessential to explore deep learning approaches that would account for clearer variable definitions. 
+
 
 ## Conclusion
 
