@@ -7,10 +7,8 @@ def fetch_data(state_fips, api_key, start_date, end_date):
     url = 'https://www.ncdc.noaa.gov/cdo-web/api/v2/data'
     headers = {'token': api_key}
     
-    # Prepare to hold all data
     all_data = []
     
-    # Generate date ranges for each year within the start and end date
     start = datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.strptime(end_date, "%Y-%m-%d")
     date_ranges = [(max(start, datetime(year, 1, 1)), min(end, datetime(year, 12, 31))) for year in range(start.year, end.year + 1)]
@@ -23,7 +21,7 @@ def fetch_data(state_fips, api_key, start_date, end_date):
             'enddate': end_dt.strftime("%Y-%m-%d"),
             'units': 'metric',
             'limit': 1000,
-            'datatypeid': 'TAVG',  # Adjust this as necessary for other data types
+            'datatypeid': 'TAVG',
             'offset': 1
         }
 
@@ -31,7 +29,7 @@ def fetch_data(state_fips, api_key, start_date, end_date):
             response = requests.get(url, headers=headers, params=params)
             if response.status_code != 200:
                 print(f"Failed to fetch data: {response.status_code} - {response.text}")
-                break  # Exiting the loop on failure to avoid infinite loops
+                break
             try:
                 data = response.json()
                 if 'results' not in data:
@@ -46,14 +44,14 @@ def fetch_data(state_fips, api_key, start_date, end_date):
             except ValueError as e:
                 print("Failed to decode JSON:", e)
                 break
-            time.sleep(1)  # Respect the API's rate limit
+            time.sleep(1)
 
     return pd.DataFrame(all_data)
 
-api_key = 'GJchkdITnLUESJMHMVzxwpJQUAiOeNjo'  # Replace with your actual API key
+api_key = 'GJchkdITnLUESJMHMVzxwpJQUAiOeNjo'
 start_date = '2004-01-01'
 end_date = '2019-01-01'
-state_fips = '11'  # FIPS code for the District of Columbia
+state_fips = '11'
 
 print("Fetching data for the District of Columbia")
 df = fetch_data(state_fips, api_key, start_date, end_date)
