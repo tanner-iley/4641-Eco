@@ -119,7 +119,7 @@ The second model was the Random Forest model.
 
 ### Confusion Matrix For Pennsylvania
 
-![Confusion Matrix](./graphs/randomForest/randomForest_confusion_matrix_Pennsylvania.png)
+![Confusion Matrix](./graphs/randomForest/randomForest_confusion_matrix_Ohio.png)
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
