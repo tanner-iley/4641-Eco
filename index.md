@@ -58,13 +58,12 @@ For our project, we decided on the following machine learning methods: **K Neare
 
 For our project, we must select one metric suitable for Clustering and two metrics suitable for regression so that the metrics properly evaluate the methods. Therefore, we settled on **Adjusted Mutual Info Score (KNN), Mean Absolute Error (RF), and Root Mean Squared Error (LR)**. We chose these metrics because they align with our goals for this project. Recently, energy prices have risen massively and are becoming more of a burden on the working class of America. We hope this project sheds some light on where the average home can sustainably cut back on energy usage. We expect power usage to be moderately lower in places like North Carolina than places like Illinois because of the difference in heating and cooling needs.
 
-### Midterm Checkpoint
 
 ## Data Pre-Processing
 
 For pre-processing, we chose to clean and normalize the data. Cleaning helps remove inconsistencies, outliers, or missing values that could lead to misleading insights, while normalization scales the data into a consistent range, making it easier for machine learning algorithms to converge and improve accuracy. Our goal with these steps was to feed accurate data effectively into the model for results that are easy to interpret.
 
-## Visualization and Quantitative Metrics
+## Visualization and Quantitative Metrics for Linear Regression
 
 The first model we chose to implement was the linear regression model. We decided to implement this model as it would give us better understanding of how different factors could connect to energy use. Linear Regression gives a better idea on what trends occur in our data. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
 
@@ -127,22 +126,6 @@ For future iterations of our project, we came up with a list of potential improv
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
 
 
-## Midterm Contribution Table
-
-| Team Member     | Contribution Description                                |
-|-----------------|---------------------------------------------------------|
-| Graham Hill     | Data Pre-Processing               |
-| Tanner Iley     | Data Sourcing and Pre-Processing              |
-| Rhea Jaxon      | Results Evaluation and Analysis                |
-| Pranav Jothi    | Model Selection and Linear Regression Coding                |
-| Justin Kamina   | Model Selection and Random Forest Coding                  |
-
-### Final Report
-
-## Data Preprocessing
-
-The preprocessing methods remained the same for the other models we implemented. This allowed for consistent inputs to all three models.
-
 ## Implementations
 
 In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state. The states are the following: Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, and West Virginia. 
@@ -157,16 +140,24 @@ The final model we implemented was KNN.
 
 [Link to KNN Visualizations](./knn_images.md)
 
-
-## Next Steps
-
-The next feature to be implemented in this model would be predicting energy pricing as well as consumption. This was initially a step in the data sourcing process; however, there were no easily accessible databases with robust datasets. The best dataset found only recorded the monthly average, and thus was unusable.
+## Comparisons
 
 ## Conclusion
 
 ## Gantt Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
+
+
+## Midterm Contribution Table
+
+| Team Member     | Contribution Description                                |
+|-----------------|---------------------------------------------------------|
+| Graham Hill     | Data Pre-Processing               |
+| Tanner Iley     | Data Sourcing and Pre-Processing              |
+| Rhea Jaxon      | Results Evaluation and Analysis                |
+| Pranav Jothi    | Model Selection and Linear Regression Coding                |
+| Justin Kamina   | Model Selection and Random Forest Coding                  |
 
 ## Final Report Contribution Table
 
