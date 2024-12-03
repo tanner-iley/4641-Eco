@@ -134,6 +134,10 @@ The final model we implemented was KNN.
 
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
+## Next Steps
+
+The next feature to be implemented in this model would be predicting energy pricing as well as consumption. This was initially a step in the data sourcing process; however, there were no easily accessible databases with robust datasets. The best dataset found only recorded the monthly average, and thus was unusable.
+
 ## Contribution Table
 
 | Team Member     | Contribution Description                                |
