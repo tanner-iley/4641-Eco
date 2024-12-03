@@ -118,9 +118,24 @@ The preprocessing methods remained the same for the other models we implemented.
 
 ## Implementations
 
-In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state.
+In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state. The states are the following: Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, and West Virginia. 
 
-[Link to Linear Regression Visualizations](./linearRegression_images.md).
+[Link to Linear Regression Visualizations](./linearRegression_images.md)
+
+[Link to KNN Visualizations](./knn_images.md)
+
+[Link to Random Forest Visualizations](./randomForest_images.md)
+
+
+## Contribution Table
+
+| Team Member     | Contribution Description                                |
+|-----------------|---------------------------------------------------------|
+| Graham Hill     | KNN implementation            |
+| Tanner Iley     | Preprocessing and Linear Regression changes            |
+| Rhea Jaxon      | Results Evaluation and Analysis                |
+| Pranav Jothi    | Linear Regression Coding and analysis               |
+| Justin Kamina   | Random Forest Coding                  |
 
 ## References
 
