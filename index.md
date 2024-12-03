@@ -118,7 +118,7 @@ The preprocessing methods remained the same for the other models we implemented.
 
 ## Implementations
 
-In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state.
+In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state. The states are the following: Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, and West Virginia. 
 
 [Link to Linear Regression Visualizations](./linearRegression_images.md)
 
