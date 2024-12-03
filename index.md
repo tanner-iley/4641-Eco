@@ -96,10 +96,6 @@ For future iterations of our project, we came up with a list of potential improv
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
 
-## Gantt Chart
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
-
 ## Contribution Table
 
 | Team Member     | Contribution Description                                |
@@ -137,6 +133,10 @@ For linear regression, we identified that there were no significant correlations
 ## Next Steps
 
 The next feature to be implemented in this model would be predicting energy pricing as well as consumption. This was initially a step in the data sourcing process; however, there were no easily accessible databases with robust datasets. The best dataset found only recorded the monthly average, and thus was unusable.
+
+## Gantt Chart
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
 
 ## Contribution Table
 
