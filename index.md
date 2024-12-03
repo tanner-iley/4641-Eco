@@ -117,9 +117,9 @@ For linear regression, we identified that there were no significant correlations
 
 The second model was the Random Forest model.
 
-![Confusion Matrix](./graphs/randomForest/randomForest_confusion_matrix_Pennsylvania.png)
+### Confusion Matrix For Pennsylvania
 
-![Feature Importance](./graphs/randomForest/randomForest_feature_importance_Pennsylvania.png)
+![Confusion Matrix](./graphs/randomForest/randomForest_confusion_matrix_Pennsylvania.png)
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
