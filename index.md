@@ -122,9 +122,13 @@ In addition to implementing two additional models, we also changed the structure
 
 [Link to Linear Regression Visualizations](./linearRegression_images.md)
 
-[Link to KNN Visualizations](./knn_images.md)
+The next model we chose to implement was the Random Forest Model.
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
+
+The final model we implemented was KNN.
+
+[Link to KNN Visualizations](./knn_images.md)
 
 ## Analysis 
 
