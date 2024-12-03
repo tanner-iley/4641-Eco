@@ -107,11 +107,11 @@ The third model was the K-nearest neighbors model. For our analysis, Pennsylvani
 When just looking at the model visually, there is room for concern in the accuracy of our model. How KNN works is that the machine learning model finds the nearest neighbors of a certain point, and then utilizes classification techniques in order to predict which class the point may belong to. As this classification portion is a big part of the model’s success, it is quintessential to have distinguishable classes to ensure an accurate understanding and predictor of the power consumption model. 
 
 
-- ## High levels of misclassification: Our graph showcases high levels of misclassification for both classes 0 and 2. However, since there are only 3 classes on this model, a high level of misclassification could prove to be disastrous as it will prove a weak distinguishable relation.
+- **High levels of misclassification**: Our graph showcases high levels of misclassification for both classes 0 and 2. However, since there are only 3 classes on this model, a high level of misclassification could prove to be disastrous as it will prove a weak distinguishable relation.
 
-- ## Feature Overlap: A problem in the code constructing the model could suggest that there is a high level of feature overlap if adjacent classes have a high rate of misclassifications. This is proven through the relationships between Class 0 and Class 1. Further corroborated the weak feature recognition through the relationship of Class 1 and Class 2.
+- **Feature Overlap**: A problem in the code constructing the model could suggest that there is a high level of feature overlap if adjacent classes have a high rate of misclassifications. This is proven through the relationships between Class 0 and Class 1. Further corroborated the weak feature recognition through the relationship of Class 1 and Class 2.
 
-- ## Class Imbalance: One final aspect to consider would be the stark comparisons of correct classifications for Class 1. Class 1 had 7786 correct classifications. This could mean there is a generalization and a high lean towards the model’s learning process towards the majority class.
+- **Class Imbalance**: One final aspect to consider would be the stark comparisons of correct classifications for Class 1. Class 1 had 7786 correct classifications. This could mean there is a generalization and a high lean towards the model’s learning process towards the majority class.
 
 ---
 
