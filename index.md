@@ -75,13 +75,7 @@ The first model we chose to implement was the linear regression model. We decide
 
 ![RegressionImage](./graphs/RegressionImage.jpg)
 
-### Final Visualization
-
-![RegressionImageFinal](./graphs/linearRegression/linearRegression_Pennsylvania.png)
-
-[Link to Linear Regression Visualizations](./linearRegression_images.md)
-
-### Analysis
+### Midterm Analysis
 
 **Correlation**: -0.18 as the correlation coefficient suggests a weak negative relationship between the two variables, time and power load. This means that there is no strong evidence to imply that over time there was a slight decrease in power load in the duration of the 14 years. 
 
@@ -110,6 +104,12 @@ For future iterations of our project, we came up with a list of potential improv
 Between the midterm checkpoint and final report, we changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state in the Eastern Interconnection Grid.
 
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
+
+### Final Visualization
+
+![RegressionImageFinal](./graphs/linearRegression/linearRegression_Pennsylvania.png)
+
+[Link to Linear Regression Visualizations](./linearRegression_images.md)
 
 ## Random Forest
 
