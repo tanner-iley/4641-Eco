@@ -85,6 +85,10 @@ Our linear regression model did not give us a strong indicator of the relationsh
 
 - **Seasonal Patterns**: A linear regression model may not be able to effectively capture cyclical patterns, which may be what is happening with the power load trends on an annual basis. Exploring other modeling options, such as a time-series model with seasonal decomposition could perform better.
 
+## Updates
+
+For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
+
 ## Next Steps
 
 For future iterations of our project, we came up with a list of potential improvements we can make to our models and factors to consider for other models we will work on for this project. Based on our analysis of the linear regression model, we came up with these next steps:
@@ -153,9 +157,6 @@ The final model we implemented was KNN.
 
 [Link to KNN Visualizations](./knn_images.md)
 
-## Analysis 
-
-For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
 ## Next Steps
 
