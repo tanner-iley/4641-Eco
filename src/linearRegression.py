@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+import numpy as np
 
 def load_data(file_path):
     return pd.read_csv(file_path)
@@ -30,6 +31,12 @@ def perform_regression_and_plot(data, dependent_var, independent_vars, state, ou
     plt.xlabel('Datetime')
     plt.ylabel(dependent_var)
     plt.legend()
+
+    corr_matrix = np.corrcoef(x.iloc[:, 0], y)
+    corr_coeff = corr_matrix[0, 1]
+
+    plt.figtext(0.15, 0.85, f'Correlation Coefficient: {corr_coeff:.2f}', fontsize=9, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
+
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
