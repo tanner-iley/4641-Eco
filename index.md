@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Project Proposal
+### Final Report
 
 **Author Names**: Graham Hill, Tanner Iley, Rhea Jaxon, Pranav Jothi, Justin Kamina
 
@@ -84,10 +84,6 @@ Our linear regression model did not give us a strong indicator of the relationsh
 
 - **Seasonal Patterns**: A linear regression model may not be able to effectively capture cyclical patterns, which may be what is happening with the power load trends on an annual basis. Exploring other modeling options, such as a time-series model with seasonal decomposition could perform better.
 
-## Updates
-
-For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
-
 ## Next Steps
 
 For future iterations of our project, we came up with a list of potential improvements we can make to our models and factors to consider for other models we will work on for this project. Based on our analysis of the linear regression model, we came up with these next steps:
@@ -97,6 +93,11 @@ For future iterations of our project, we came up with a list of potential improv
 - **Explore Alternatives**: Explore other ML models that may more effectively interpret the data we want to learn about. Some models we were looking at include: Random Forests, which can capture non-linear relationships, or time-series models that can account for seasons.
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
+
+## Updates for Linear Regression
+
+For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
+
 
 ## Visualization and Quantitative Metrics for K-nearest Neighbors
 
@@ -124,6 +125,10 @@ For future iterations of our project, we came up with a list of potential improv
 
 - **Additional Features**: Incorporate other features such as temperature, day of the week, and geographical location to capture more complex relationships.
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
+
+## Updates for KNN
+
+For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
 
 ## Implementations
