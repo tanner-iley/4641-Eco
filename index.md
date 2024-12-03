@@ -123,7 +123,7 @@ For future iterations of our project, we came up with a list of potential improv
 - **Strengthen Features**: Incorporate more accurate classifications so that there is not such a big lean to Class 1 and we can identify stronger relationships between models.
 
 
-## Contribution Table
+## Midterm Contribution Table
 
 | Team Member     | Contribution Description                                |
 |-----------------|---------------------------------------------------------|
@@ -167,7 +167,7 @@ The next feature to be implemented in this model would be predicting energy pric
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
 
-## Contribution Table
+## Final Report Contribution Table
 
 | Team Member     | Contribution Description                                |
 |-----------------|---------------------------------------------------------|
