@@ -112,6 +112,16 @@ For future iterations of our project, we came up with a list of potential improv
 
 ### Final Report
 
+## Data Preprocessing
+
+The preprocessing methods remained the same for the other models we implemented. This allowed for consistent inputs to all three models.
+
+## Implementations
+
+In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state.
+
+[Link to Linear Regression Visualizations] (./linearRegression_images.md)
+
 ## References
 
 1. A. Bashir, et al., "Predicting Energy Consumption in Smart Buildings: A Machine Learning Approach," Energy Reports, vol. 7, pp. 282-293, 2021.
