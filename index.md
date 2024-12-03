@@ -20,6 +20,8 @@ The features we are looking at currently are going to be time, geographical loca
 
 [Link to dataset](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)
 
+[Link to climate data](https://www.ncei.noaa.gov/maps/hourly/).
+
 ## Problem Definition
 
 Driven by increasing population and, ultimately, demand, the United States faces a growing pressure to accommodate their population energy consumption needs effectively. Developing a predictive model from decades worth of energy consumption data can help build a better understanding on consumption trends and how smart technology and household behavior can utilize these forecasts for a cheaper and more sustainable environment in America.
@@ -63,7 +65,7 @@ For our project, we must select one metric suitable for Clustering and two metri
 
 For pre-processing, we chose to clean and normalize the data. Cleaning helps remove inconsistencies, outliers, or missing values that could lead to misleading insights, while normalization scales the data into a consistent range, making it easier for machine learning algorithms to converge and improve accuracy. Our goal with these steps was to feed accurate data effectively into the model for results that are easy to interpret.
 
-## Visualization and Quantitative Metrics for Linear Regression
+### Visualization and Quantitative Metrics for Linear Regression
 
 The first model we chose to implement was the linear regression model. We decided to implement this model as it would give us better understanding of how different factors could connect to energy use. Linear Regression gives a better idea on what trends occur in our data. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
 
@@ -86,6 +88,8 @@ Our linear regression model did not give us a strong indicator of the relationsh
 
 ## Updates
 
+Between the midterm checkpoint and final report, we changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state in the Eastern Interconnection Grid.
+
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
 ## Next Steps
@@ -98,12 +102,14 @@ For future iterations of our project, we came up with a list of potential improv
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
 
-## Visualization and Quantitative Metrics for K-nearest Neighbors
+### Visualization and Quantitative Metrics for K-nearest Neighbors
 
 The third model was the K-nearest neighbors model. For our analysis, Pennsylvania’s power loads were utilized as that was the model of highest accuracy of 90.9%. There are three distinguishable classes. Class 0 has 1 correctly classified instance. However, there were as many as 214 misclassifications for Class 0, which could suggest a weak representation of the class. Class 1 had 83 misclassifications as Class 2 and 5 misclassifications as Class 0. In comparison to Class 0, Class 1 seems to have more distinguishable class features. Finally, when analyzing Class 2 from the graph, there are 503 instances that seem to have been misclassified as Class 1.
 
 ---
 ![KNN](./graphs/knn/knn_confusion_matrix_Pennsylvania.png)
+
+[Link to All KNN Visualizations](./knn_images.md)
 
 ## Analysis
 
@@ -128,17 +134,13 @@ For future iterations of our project, we came up with a list of potential improv
 
 ## Implementations
 
-In addition to implementing two additional models, we also changed the structure of the linear regression model. We changed the independent variable of the model from solely time to climate data and time. Additionally, since the climate data was separated by state, we changed the model to produce a visualization for each state. The states are the following: Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, and West Virginia. 
+In addition to implementing two additional models, 
 
 [Link to Linear Regression Visualizations](./linearRegression_images.md)
 
 The next model we chose to implement was the Random Forest Model.
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
-
-The final model we implemented was KNN.
-
-[Link to KNN Visualizations](./knn_images.md)
 
 ## Comparisons
 
