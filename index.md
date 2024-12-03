@@ -136,9 +136,9 @@ The second model was the Random Forest model. We have chosen to use Pennsylvania
 When examining the model, the lacking accuracy of our Random Forest model is an apparent issue that could have any number of causes. Random Forest is a collection of decision trees that are created from random selections of the data split by a certain criteria, in this case by the median of the data set. Some examples of issues that could cause accuracy issues in such a model are:
 
 - **High Levels of Misclassification**: The confusion matrix has significant levels of misclassification in the both class 0 and class 1. With the only two classes exhibiting significant misclassification, the reliability of the model is called into question.
-- 
+  
 - **Feature Overlap**: When adjacent classes both have a high rate of misclassification as seen here, it strongly suggests that there is feature overlap. Since both classes 0 and 1 not only have high misclassification, but nearly identical rates of misclassifcation, this suggestion is further strengthened.
-- 
+  
 - **Improper Split**: With a proper split this algorithm should have a high accuracy rate. Therefore, the low accuracy rate exhibited by the model suggests an the split being implemented is inaccurate for this data set.
 
 ### Next Steps
