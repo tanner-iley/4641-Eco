@@ -126,6 +126,17 @@ In addition to implementing two additional models, we also changed the structure
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
+
+## Contribution Table
+
+| Team Member     | Contribution Description                                |
+|-----------------|---------------------------------------------------------|
+| Graham Hill     | KNN implementation            |
+| Tanner Iley     | Preprocessing and Linear Regression changes            |
+| Rhea Jaxon      | Results Evaluation and Analysis                |
+| Pranav Jothi    | Linear Regression Coding and analysis               |
+| Justin Kamina   | Random Forest Coding                  |
+
 ## References
 
 1. A. Bashir, et al., "Predicting Energy Consumption in Smart Buildings: A Machine Learning Approach," Energy Reports, vol. 7, pp. 282-293, 2021.
