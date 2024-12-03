@@ -146,7 +146,7 @@ When examining the model, the lacking accuracy of our Random Forest model is an 
 To improve the accuracy and quality of the models in future iterations of this project, we created a short list of improvements to make in the future based on our anaylsis of the Random Forest Model.
 
 - **Model Tuning**: One potential cause of these errors is that the model parameters, such as number and depth of trees, are not tuned properly. Care should be taken in the future to ensure that these aspects of the model are tuned properly.
-- 
+  
 - **Improve Splits**: Experiment with different splitting criteria such as mean squared error and impurity to improve the separability of the classes.
 
 ## K-nearest Neighbors
