@@ -71,7 +71,6 @@ The first model we chose to implement was the linear regression model. We decide
 ![RegressionImage](./graphs/RegressionImage.jpg)
 
 
-
 ## Analysis
 
 **Correlation**: -0.18 as the correlation coefficient suggests a weak negative relationship between the two variables, time and power load. This means that there is no strong evidence to imply that over time there was a slight decrease in power load in the duration of the 14 years. 
@@ -101,6 +100,7 @@ For future iterations of our project, we came up with a list of potential improv
 The third model was the K-nearest neighbors model. For our analysis, Pennsylvania’s power loads were utilized as that was the model of highest accuracy of 90.9%. There are three distinguishable classes. Class 0 has 1 correctly classified instance. However, there were as many as 214 misclassifications for Class 0, which could suggest a weak representation of the class. Class 1 had 83 misclassifications as Class 2 and 5 misclassifications as Class 0. In comparison to Class 0, Class 1 seems to have more distinguishable class features. Finally, when analyzing Class 2 from the graph, there are 503 instances that seem to have been misclassified as Class 1.
 
 ---
+![KNN](./graphs/knn/knn_confusion_matrix_Pennsylvania.png)
 
 ## Analysis
 
