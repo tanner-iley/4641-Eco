@@ -65,15 +65,15 @@ For our project, we must select one metric suitable for Clustering and two metri
 
 For pre-processing, we chose to clean and normalize the data. Cleaning helps remove inconsistencies, outliers, or missing values that could lead to misleading insights, while normalization scales the data into a consistent range, making it easier for machine learning algorithms to converge and improve accuracy. Our goal with these steps was to feed accurate data effectively into the model for results that are easy to interpret.
 
-### Visualization and Quantitative Metrics for Linear Regression
+# Visualization and Quantitative Metrics for Linear Regression
 
 The first model we chose to implement was the linear regression model. We decided to implement this model as it would give us better understanding of how different factors could connect to energy use. Linear Regression gives a better idea on what trends occur in our data. The visualization created from this implementation was a scatter plot, which showcases the relationship between time elapsed (independent variable) to the power load in MW (dependent variable). The points on the scatterplot represent the preprocessed data of 14 years worth of hourly measurements in the Eastern Interconnection grid. The green linear regression fit line is seen as having a slight negative linear progression. As described in our code, we calculated the correlation coefficient, which is also displayed on our visual as -0.18. This statistic suggests that the relationship between power load and time elapsed is a negative weak correlation. 
 
-# Midterm Checkpoint Visualization
+### Midterm Checkpoint Visualization
 
 ![RegressionImage](./graphs/RegressionImage.jpg)
 
-# Final Visualization
+### Final Visualization
 
 ![RegressionImageFinal](./graphs/linearRegression/linearRegression_Pennsylvania.png)
 
@@ -110,7 +110,7 @@ For future iterations of our project, we came up with a list of potential improv
 
 - **Other Metrics**: Calculate metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) to quantify the prediction error more accurately.
 
-### Visualization and Quantitative Metrics for Random Forest
+# Visualization and Quantitative Metrics for Random Forest
 
 The second model was the Random Forest model.
 
@@ -120,7 +120,7 @@ The second model was the Random Forest model.
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
-### Visualization and Quantitative Metrics for K-nearest Neighbors
+# Visualization and Quantitative Metrics for K-nearest Neighbors
 
 The third model was the K-nearest neighbors model. For our analysis, Pennsylvania’s power loads were utilized as that was the model of highest accuracy of 90.9%. There are three distinguishable classes. Class 0 has 1 correctly classified instance. However, there were as many as 214 misclassifications for Class 0, which could suggest a weak representation of the class. Class 1 had 83 misclassifications as Class 2 and 5 misclassifications as Class 0. In comparison to Class 0, Class 1 seems to have more distinguishable class features. Finally, when analyzing Class 2 from the graph, there are 503 instances that seem to have been misclassified as Class 1.
 
