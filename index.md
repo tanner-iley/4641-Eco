@@ -126,7 +126,7 @@ In addition to implementing two additional models, we also changed the structure
 
 [Link to Random Forest Visualizations](./randomForest_images.md)
 
-##Analysis 
+## Analysis 
 
 For linear regression, we identified that there were no significant correlations between climate data and time to AEP values (energy consumption). In regards to time, we can attribute the lack of correlation due to gaps in data where no AEP values were recorded and the limited time frame of data (2004-2018).
 
