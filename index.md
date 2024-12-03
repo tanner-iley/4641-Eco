@@ -161,6 +161,8 @@ For linear regression, we identified that there were no significant correlations
 
 The next feature to be implemented in this model would be predicting energy pricing as well as consumption. This was initially a step in the data sourcing process; however, there were no easily accessible databases with robust datasets. The best dataset found only recorded the monthly average, and thus was unusable.
 
+## Conclusion
+
 ## Gantt Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhmutOs0rWWG6KI8WY2ifHFISfltkbkcG-NgWRFObkjI6fjk4zgbMejmJ_67K-EQ/pubhtml?widget=true&headers=false" width="100%" height="500"></iframe>
